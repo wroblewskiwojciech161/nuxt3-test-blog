@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <g id="kodefix-symbol-dark-color" transform="translate(-13603 -6414)">
+    <path id="Path_11918" data-name="Path 11918" d="M240.469,0H839.531C972.339,0,1080,107.662,1080,240.469V839.531C1080,972.339,972.339,1080,839.531,1080H240.469C107.662,1080,0,972.339,0,839.531V240.469C0,107.662,107.662,0,240.469,0Z" transform="translate(13603 6414)" fill="#16161c"/>
+    <g id="kodefix-logo-white" transform="translate(13806.202 6605.512)">
+      <g id="kodefix-logo-white-2">
+        <g id="kodefix-logo-white-3">
+          <circle id="Ellipse_720" data-name="Ellipse 720" cx="140.43" cy="140.43" r="140.43" transform="translate(502.423 345.455)" fill="#00c261"/>
+          <g id="Group_7136" data-name="Group 7136">
+            <g id="Group_7135" data-name="Group 7135">
+              <path id="Path_11776" data-name="Path 11776" d="M606.373,698.865a112.383,112.383,0,0,1-47.067,15.008c-27.52,0-44.611-10.417-66.447-43.724L429.266,568.556,590.658,365.37V346.517H434.011L295.459,543.968V147.15H154V833.534H295.459V612.344L393.194,769.9a163.643,163.643,0,0,0,144.288,74.06c32.9,0,71.475-6.43,130.849-46.3a261.983,261.983,0,0,1-61.959-98.713Z" transform="translate(-154 -147.15)" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
