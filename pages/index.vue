@@ -8,8 +8,11 @@
               <NuxtLink :to="`/posts/${post.id}`">
                 <h2 class="mb-4 text-3xl font-semibold font-heading" v-html="post.title.rendered"> </h2>
               </NuxtLink>
-              <p class="mb-4 lg:mb-8 text-base text-gray-500"> {{post.slug }}</p>
-              <img :src="post.yoast_head_json.twitter_image"/>
+              <div class="mb-2 lg:mb-4 text-base text-gray-500" v-html="trimText(post.content.rendered)"></div>
+              <NuxtLink :to="`/posts/${post.id}`">
+                <div class="text-md font-medium hover:no-underline mb-2 lg:mb-4" href="#">Read more</div>
+              </NuxtLink>
+              <img v-if="post._embedded['wp:featuredmedia']['0'].source_url" :src="post._embedded['wp:featuredmedia']['0'].source_url"/>
             </div>
           </div>
         </div>
@@ -18,8 +21,11 @@
 </template>
 
 <script setup>
-
-const { data } = await useFetch(process.env.API_URL)
-  
+  const runtimeConfig = useRuntimeConfig()
+  const { data } = await useFetch(`${runtimeConfig.api.url}?_embed`)
+  const shortDescriptionLength = 180;
+  function trimText(text){
+    return text.substring(0,shortDescriptionLength)+"...";
+  }
 </script>
 

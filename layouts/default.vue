@@ -1,33 +1,20 @@
 <template>
     <!-- navigation section -->
-    <section class="py-8 bg-gray-900">
+    <section class="py-3 bg-green-500">
       <div class="container px-4 mx-auto">
         <nav>
           <div class="flex justify-between items-center">
-            <a class="text-lg font-medium" href="#">
+            <a class="text-lg font-medium" href="/">
               <img
-                class="h-7"
+                class="h-14"
                 src="../assets/icons/logo.svg"
                 alt=""
                 width="auto"
               />
             </a>
-            <div class="lg:hidden">
-              <button class="navbar-burger flex items-center p-3 rounded">
-                <svg
-                  class="text-white block h-4 w-4"
-                  viewbox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                >
-                  <title>Mobile menu</title>
-                  <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
-                </svg>
-              </button>
-            </div>
             <div class="hidden lg:block">
               <a
-                class="inline-block py-3 px-8 text-sm text-white leading-normal bg-blue-300 hover:bg-blue-400 font-medium rounded transition duration-200"
+                class="inline-block py-3 px-8 text-sm text-white leading-normal bg-slate-900 hover:bg-gray-400 font-medium rounded transition duration-200"
                 href="/"
                 >Home</a
               >
@@ -43,7 +30,7 @@
           class="relative flex flex-col py-6 px-6 w-full h-full bg-white border-r overflow-y-auto"
         >
           <div class="flex items-center mb-8">
-            <a class="mr-auto text-2xl font-medium leading-none" href="#">
+            <a class="mr-auto text-2xl font-medium leading-none" href="/">
               <img
                 class="h-7"
                 src="../assets/icons/logo.svg"
